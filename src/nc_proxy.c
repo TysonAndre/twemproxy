@@ -397,3 +397,8 @@ proxy_recv(struct context *ctx, struct conn *conn)
 
     return NC_OK;
 }
+
+void
+proxy_restore(struct context *ctx, struct conn *conn)
+{
+}
